@@ -1,11 +1,11 @@
 (function(self, ns){
     const settings = {}
 
-    // Your appcues account id.
+    // Your Appcues account id.
     const APPCUES_ACCOUNT_ID = "<your appcues account id>";
-    // The prococal and domain used to load the Appcues SDK.
+    // The protocol and domain used to load the Appcues SDK.
     const APPCUES_BUNDLE_DOMAIN = "https://fast.appcues.com";
-    // The domain used to comminucate with the Appcues API.
+    // The domain used to communicate with the Appcues API.
     const APPCUES_API_HOSTNAME = "api.appcues.net";
 
     var isBootstrapped = false;
