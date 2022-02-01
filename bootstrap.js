@@ -68,7 +68,8 @@
         "injectStyles",
         "injectEvents",
         "cancelEvents",
-        "loadLaunchpad"
+        "loadLaunchpad",
+        "group"
     ];
 
     var promises = [
