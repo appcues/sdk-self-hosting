@@ -10,7 +10,7 @@ Once self-hosted:
 - You can create a [sub-resource integrity hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) for the script.  This security feature enables browsers to verify the script they are fetching is delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched resource must match.
 - You will need to manually update to new versions of the script whenever changes to the script occur.
 
-**WARNING:** Unless your security needs specifically require it, self-hosting and proxying is not recommended.  Self-hosting the SDK bootstrap script means you will not automatically receive new versions of the script (like you get if you don't self-host) and will need to update your copy of the script when changes occur. If you do not update, it may make you unable to receive new Appcues features and functionality.
+**WARNING:** Unless your security needs specifically require it, self-hosting and proxying is not recommended.  Self-hosting the SDK bootstrap script means you will not automatically receive new versions of the bootstrap script and will need to update your copy of this script if changes to it are made. If you do not update, it may make you unable to receive new Appcues features and functionality. To be alerted of changes, we recommend following this Github repo.
 
 # Self-Hosting the SDK Bootstrap Script
 
